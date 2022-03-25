@@ -1,5 +1,16 @@
 function init(){
-//add your javascrip between these two lines of code
+	
+
+	function myEventFunction(){
+		var t1 = document.getElementById('entryinput');
+		alert("ma");
+		t1.value = 'Guangkun Ou:';
+	}
+	var e1 = document.getElementById('entrybutton');
+	e1.addEventListener('click', myEventFunction);
+
+}
+
  
 
 
