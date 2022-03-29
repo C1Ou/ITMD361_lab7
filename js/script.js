@@ -14,19 +14,7 @@ function init(){
 	e1.addEventListener('click', myEventFunction);
 	
 	
-	
-	
-
-	
-
 }
-
- 
-
-
-
-
-
 
 
 window.addEventListener('load', init);
